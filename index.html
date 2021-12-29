@@ -112,7 +112,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<ul class="address-text">
 									<li><b>E-MAIL</b></li>
 									<li><a href="mailto:adheebpm@gmail.com">adheebpmfz@gmail.com</a></li>
-								
+
 								</ul>
 							</li>
 							<li>
@@ -120,7 +120,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<li><b>Skills</b></li>
 									<li>Html,
 										Css,
-										Bootstrap,
+										Bootstrap
 										JavaScript,
 										jQuery,
 										Angular
@@ -667,17 +667,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="clearfix"> </div>
 				</div>
 				<div class="col-md-6 mail_right">
-					<form action="#" method="post">
-						<input type="text" name="Name" value="Name" onfocus="this.value = '';"
-							onblur="if (this.value == '') {this.value = 'Name';}" required="">
-						<input type="email" name="Email" value="Email" onfocus="this.value = '';"
-							onblur="if (this.value == '') {this.value = 'Email';}" required="">
-						<input type="text" name="Mobile number" value="Mobile number" onfocus="this.value = '';"
-							onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
-						<textarea name="Message..." onfocus="this.value = '';"
+					<form action="connect.php" method="post">
+						<input id="firstName" placeholder="Firstname" class="form-control" type="text" name="firstName" value=""
+							required="">
+						<input id="lastName" placeholder="lastname" class="form-control" type="text" name="lastName" value=""
+							required="">
+						<input id="email" placeholder="email" type="email" class="form-control" name="email" value="" required="">
+						<!-- <input id="number" type="number" class="form-control" name=" number" value="number" onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = '| number';}" required=""> -->
+						<p>gender:</p>
+						<label class="m-5">Male</label>
+						<input class="mb-2" type="radio" name="gender" value="m">
+						<label class="m-5">Female</label>
+						<input type="radio" name="gender" value="m">
+						<label class="m-5">others</label>
+						<input type="radio" name="gender" value="o">
+						<textarea id="message" class="mt-2" name="message" onfocus="this.value = '';"
 							onblur="if (this.value == '') {this.value = 'Message...';}"
 							required="">Message...</textarea>
-						<input type="submit" value="Send">
+						<input  type="submit" value="Send">
 
 					</form>
 				</div>
