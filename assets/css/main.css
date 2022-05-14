@@ -3293,6 +3293,6 @@ section {
     text-decoration: none;
 }
 
-img.coursal-banner.d-block.w-100 {
+.coursal-banner {
     max-height: 600px;
 }
