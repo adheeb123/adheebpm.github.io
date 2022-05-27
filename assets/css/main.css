@@ -2828,7 +2828,7 @@ img.coursal-banner.d-block.w-100 {
 
 @media (max-width: 575px) {
     .logos {
-        height: 88px;
+        height: 100px;
         width: 80%;
     }
 }
@@ -2836,6 +2836,7 @@ img.coursal-banner.d-block.w-100 {
 @media (max-width: 575px) {
     .choose-us {
         max-height: 42vh;
+        max-width: 100%;
     }
 }
 
@@ -2894,8 +2895,14 @@ img.coursal-banner.d-block.w-100 {
     justify-content: center;
     margin-left: 50%;
 }
+
 .accordion-button:focus {
     z-index: 3;
     outline: 0;
     box-shadow: none;
+}
+@media (max-width: 575px) {
+    .accordion-button {
+        margin-left: 48%;
+    }
 }
