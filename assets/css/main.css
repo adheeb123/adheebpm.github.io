@@ -2878,7 +2878,7 @@ img.coursal-banner.d-block.w-100 {
     }
 }
 .accordion-button {
-    position: relative;
+    position: absolute ;
     display: flex;
     /* align-items: center; */
     width: 50px;
@@ -2893,7 +2893,6 @@ img.coursal-banner.d-block.w-100 {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
     display: flex;
     justify-content: center;
-    margin-left: 50%;
 }
 
 .accordion-button:focus {
@@ -2901,8 +2900,8 @@ img.coursal-banner.d-block.w-100 {
     outline: 0;
     box-shadow: none;
 }
-@media (min-width: 800px) {
-    .accordion-button {
-        margin-left: 42%;
-    }
+div#accordionExample {
+    display: flex;
+    justify-content: center;
 }
+
