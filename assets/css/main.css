@@ -2901,8 +2901,8 @@ img.coursal-banner.d-block.w-100 {
     outline: 0;
     box-shadow: none;
 }
-@media (max-width: 575px) {
+@media (min-width: 800px) {
     .accordion-button {
-        margin-left: 48%;
+        margin-left: 42%;
     }
 }
