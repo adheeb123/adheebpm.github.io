@@ -721,6 +721,7 @@ section {
     margin: 0;
     font-weight: 500;
     color: var(--color-secondary);
+    word-break: break-word;
 }
 
 .about .tab-content i {
@@ -1057,6 +1058,7 @@ section {
     font-weight: 600;
     margin: 10px 0 0 0;
     color: var(--color-secondary);
+    text-align: center;
 }
 
 .features .nav-link:hover {
@@ -2835,7 +2837,7 @@ img.coursal-banner.d-block.w-100 {
 
 @media (max-width: 575px) {
     .choose-us {
-        max-height: 42vh;
+        max-height: 50vh;
         max-width: 100%;
     }
 }
