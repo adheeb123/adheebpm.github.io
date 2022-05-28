@@ -711,13 +711,13 @@ section {
         font-size: 16px;
     }
     .about .tab-content h4 {
-        font-size: 12px!important;
+        font-size: 16px!important;
         word-break: break-word;
     }
 }
 
 .about .tab-content h4 {
-    font-size: 17px;
+    font-size: 18px;
     margin: 0;
     font-weight: 500;
     color: var(--color-secondary);
