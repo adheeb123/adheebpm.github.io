@@ -1171,7 +1171,7 @@ section {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(var(--color-secondary-dark-rgb), 0.8);
+    background: rgba(var(--color-secondary-dark-rgb), 0.4);
 }
 
 
@@ -2847,3 +2847,9 @@ div#accordionExample {
     justify-content: center;
 }
 
+/* our css */
+.section-header.ongoing {
+    margin: 9% 0 -31px 0;
+
+    position: relative;
+}
