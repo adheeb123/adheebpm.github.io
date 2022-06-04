@@ -513,8 +513,7 @@ section {
     /* Apsu */
     .image {
         width: 100%;
-        height: 25vh !important;
-    }
+        height: 250px !important;    }
 }
 
 @media (min-width: 800px) {
