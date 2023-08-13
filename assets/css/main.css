@@ -1577,7 +1577,7 @@ section {
 
 .footer .footer-legal {
     padding: 30px 0;
-    background: var(--color-secondary-dark);
+    background: var(--color-secondary);
 }
 
 .footer .footer-legal .credits {
@@ -1611,8 +1611,12 @@ section {
 }
 
 img.coursal-banner.d-block.w-100 {
-    max-height: 100vh;
+    max-height: 80vh;
 }
+.main-coursel img.coursal-banner.d-block.w-100 {
+    max-height: 110vh;
+}
+
 
 
 /* custom css */
@@ -1734,6 +1738,14 @@ img.image {
     width:100% ;
 }
 
+button[type=submit] {
+    background: red;
+    border: 0;
+    padding: 13px 50px;
+    color: var(--color-white);
+    transition: 0.4s;
+    border-radius: 0;
+} 
 .aldhar-logo{
     height: 105px;
     width: 105px;
@@ -1745,3 +1757,26 @@ img.image {
     margin-left: 27%;
     }
 }
+
+.image-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.image-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.categories .service-item {
+    padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 15px;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .categories .service-item:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    .categories .card-hover {
+        cursor: pointer;
+    }
